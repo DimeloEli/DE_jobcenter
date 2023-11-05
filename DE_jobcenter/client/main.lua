@@ -51,7 +51,8 @@ AddEventHandler('DE_jobcenter:jobListing', function()
     for k,v in pairs(Config.Jobs) do
         table.insert(jobs, {
             title = v.label,
-            description = '',
+            description = v.description,
+            icon = v.icon,
             event = 'DE_jobcenter:setJob',
             args = { 
                 name = v.name, 
