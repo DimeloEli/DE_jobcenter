@@ -6,8 +6,8 @@ Config.Ped = 'cs_nigel'
 Config.PedDist = 6.0
 
 Config.Jobs = {
-    {label = 'Unemployed', name = 'unemployed', grade = 0},
-    {label = 'Garbage Collector', name = 'garbage', grade = 0}
+    {label = 'Unemployed', description = nil, icon = 'fas fa-xmark', name = 'unemployed', grade = 0},
+    {label = 'Garbage Collector', description = nil, icon = 'fas fa-trash', name = 'garbage', grade = 0}
 }
 
 Config.Blacklistedjobs = {
